@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>InfoScout</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="header">
+            <ul class="nav">
+                <li><img src="./imagenes/logo.png" alt=""  class="logo"></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contactanos</a></li>
+                <li><a href="#">Multimedia</a>
+                    <ul>
+                        <li><a href="#">Asociaciones</a></li>
+                        <li><a href="canciones.html">Canciones</a></li>
+                        <li><a href="danzas.html">Danzas</a></li>
+                        <li><a href="">Nudos</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="contenido" id="asociaciones">
+            <p class="ofi">Presiona en la imagen para saber mas sobre esa asiciación</p>
+            <div id="cuadro">
+                <div id="darg">
+                    <p class="texarg">Scout de Argentina</p>
+                    <a href="#">
+                    <img src="./imagenes/flor/arg.png" alt="Flor de lis Argentina" onclick="arg()"></a>
+                </div>
+                <div id="darg">
+                    <p class="texchi">Scout de Chile</p>
+                    <a href="#">
+                    <img src="./imagenes/flor/chi.png" alt="Flor de lis Chile" id="flor"onclick="chile()"></a>
+                </div>
+                <div id="darg">
+                    <p class="texmex">Scout de México</p>
+                    <a href="#">
+                    <img src="./imagenes/flor/mex.png" alt="Flor de lis México" id="flor"onclick="mexico()"></a>
+                </div>
+                <div id="darg">
+                    <p class="texgua">Scout de Guatemala</p>
+                    <a href="#">
+                    <img src="./imagenes/flor/gua.png" alt="Flor de lis México" id="gua"onclick="guatemala()"></a>
+                </div>
+                <div id="darg">
+                    <p class="texven">Scout de Venezuela</p>
+                    <a href="#">
+                    <img src="./imagenes/flor/ven.png" alt="Flor de lis México" id="ven"onclick="venezuela()"></a>
+                </div>
+                <div id="darg">
+                    <p class="texbra">Scout de Brasil</p>
+                    <a href="#">
+                    <img src="./imagenes/flor/bra.png" alt="Flor de lis México" id="bra"onclick="brasil()"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./java/main.js"></script>
+</body>
+</html>
